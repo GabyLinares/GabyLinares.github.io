@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #565264;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 1000;
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.nav-bar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-bar a:hover,
+.nav-bar a.current {
+    text-decoration: underline;
+}
+
+.inicio {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    padding: 70px 10% 0;
+}
+
+.inicio-cont {
+    max-width: 600px;
+}
+
+.inicio-cont h3 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.inicio-cont h3 span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #4f1143;
+    font-style: italic;
+}
+
+.inicio-cont h1 {
+    font-size: 56px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+.inicio-cont p {
+    /* margin-bottom: 30px; */
+    text-align: justify;
+}
+
+.socials a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #4f1143;
+    font-size: 20px;
+    color: #4f1143;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+
+.socials a:hover {
+    color: white;
+    background-color: #4f1143;
+}
