@@ -10,7 +10,8 @@
 }
 
 body {
-    background-color: #565264;
+    background: rgb(163, 66, 147);
+    background: linear-gradient(90deg, rgba(163, 66, 147, 1) 0%, rgba(111, 9, 121, 1) 32%, rgba(60, 72, 182, 1) 63%, rgba(0, 212, 255, 1) 100%);
 }
 
 .header {
@@ -19,11 +20,15 @@ body {
     top: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .logo {
@@ -60,6 +65,13 @@ body {
 
 .inicio-cont {
     max-width: 600px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px 50px 30px 50px;
 }
 
 .inicio-cont h3 {
